@@ -1,0 +1,47 @@
+*body {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------- navbar_design --------*/
+
+a {
+    text-decoration: none;
+    font-family: calibri;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+a:hover {
+    background: rgb(220, 212, 212);
+    color: rgb(0, 0, 0);
+    transition: 0.6s;
+    border-radius: 10px;
+    transition: 0.6s;
+}
+
+#search-btn{
+    margin-left: 15px;
+}
+
+#navbar-toggler-button {
+    border: none;
+}
+
+.navbar-toggler:hover {
+    background: rgb(220, 212, 212);
+    transition: 0.6s;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
+
+.card-text{
+    text-align: center;
+}
+
+#countries {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
